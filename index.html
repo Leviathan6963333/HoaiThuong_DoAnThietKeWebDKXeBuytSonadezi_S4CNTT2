@@ -254,7 +254,7 @@ button[type="submit"]:hover {
     transition: background-color 0.3s ease;
 }
 .download-btn:hover {
-    background-color: #111258; /* Màu nền khi hover */
+    background-color: #111258; /* Màu nền khi hover??? Tra mấy web kia nó bảo sài đc :[*/
 }
 
 
@@ -371,10 +371,10 @@ color: #2F398D ;
             <img src="z6082412892342_b833b3d5b787e2785cd45c60ca4c961d.jpg" alt="IGC Logo">
         </div>
         <nav class="nav-links">
-            <a href="#">GIỚI THIỆU</a>
-            <a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a>
-            <a href="#">TUYỂN SINH</a>
-            <a href="#" class="highlight">CUỘC SỐNG HỌC ĐƯỜNG</a>
+            <a href="https://www.sonadezi.edu.vn/Gioi-thieu-truong-sonadezi">GIỚI THIỆU</a>
+            <a href="https://www.sonadezi.edu.vn/danh-muc-phong-ban-html131">CHƯƠNG TRÌNH ĐÀO TẠO</a>
+            <a href="https://www.sonadezi.edu.vn/chuyen-muc-Tin-tuc-tuyen-sinh">TUYỂN SINH</a>
+            <a href="https://www.sonadezi.edu.vn/danh-muc-phong-ban-html93" class="highlight">CUỘC SỐNG HỌC ĐƯỜNG</a>
         </nav>
             <div class="actions">
             <span>Tin tức - Sự kiện</span> |
@@ -382,7 +382,7 @@ color: #2F398D ;
             <span>Liên hệ</span> |
             <img src="vn2.png" alt="Vietnam Flag">
             <img src="en2.png" alt="UK Flag">
-            <button class="NutDk">Đăng ký nhập học</button>
+            <a href="https://portal.sonadezi.edu.vn/Login"><button class="NutDk">Đăng ký nhập học</button></a>
         </div>
     </header>
 
@@ -404,13 +404,13 @@ color: #2F398D ;
      </div>
      <div class="container">
         <header class="table">
-            <a href="#"><h1>Xe Đưa Rước </h1></a>
+            <a href="https://leviathan6963333.github.io/HoaiThuong_DoAnThietKeWebDKXeBuytSonadezi_S4CNTT2/"><h1>Xe Đưa Rước </h1></a>
             <nav style="display: flex;">
-                <a href="#">Bán trú</a>
-                <a href="#">Sổ tay học sinh</a>
-                <a href="#">Câu chuyện thành công</a>
-                <a href="#">Lịch hoạt động</a>
-                <a href="#">Hướng dẫn ứng dụng VNEDU </a>
+                <a href="https://admin.sonadezi.edu.vn//Uploads/files/2023-08/THONG-BAO-THOI-GIAN-HOAT-DONG-DICH-VU._0001.pdf">Bán trú</a>
+                <a href="https://www.sonadezi.edu.vn/">Sổ tay học sinh</a>
+                <a href="https://www.sonadezi.edu.vn/Lich-su-hinh-thanh-va-phat-trien-sonadezi">Câu chuyện thành công</a>
+                <a href="https://g.co/kgs/p2qBndC">Lịch hoạt động</a>
+                <a href="https://youtu.be/Pu_9QjQCZXE?si=Pq6aPsJPA4wcRCKA">Hướng dẫn ứng dụng VNEDU </a>
             </nav>
         </header>
 
@@ -428,17 +428,17 @@ color: #2F398D ;
             <form action="#" method="post">
                 <fieldset>
                     <legend>Thông tin liên lạc</legend>
-                    <label for="parentName">Họ tên Cha mẹ/Người giám hộ học sinh <b style="color: red;">*</b> </label>
-                    <input type="text" id="parentName" name="parentName" required>
+                    <label for="TenChaMe">Họ tên Cha mẹ/Người giám hộ học sinh <b style="color: red;">*</b> </label>
+                    <input type="text" id="TenChaMe" name="TenChaMe" required>
 
                     <label for="idNumber">Số CCCD/CMND <b style="color: red;">*</b> </label>
                     <input type="text" id="idNumber" name="idNumber" required>
 
-                    <label for="issueDate">Ngày cấp <b style="color: red;">*</b> :</label>
-                    <input type="date" id="issueDate" name="issueDate" style="height: 23.5px;"><br>
+                    <label for="NgayThang">Ngày cấp <b style="color: red;">*</b> :</label>
+                    <input type="date" id="NgayThang" name="NgayThang" style="height: 23.5px;"><br>
 
-                    <label for="issuePlace">Nơi cấp <b style="color: red;">*</b></label>
-                    <input type="text" id="issuePlace" name="issuePlace">
+                    <label for="NoiCap">Nơi cấp <b style="color: red;">*</b></label>
+                    <input type="text" id="NoiCap" name="NoiCap">
 
                     <label for="address">Địa chỉ <b style="color: red;">*</b> </label>
                     <input type="text" id="address" name="address">
@@ -446,17 +446,17 @@ color: #2F398D ;
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email">
 
-                    <label for="phone">Điện thoại <b style="color: red;">*</b></label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <label for="ĐT">Điện thoại <b style="color: red;">*</b></label>
+                    <input type="tel" id="ĐT" name="ĐT" required>
                 </fieldset>
 
                 <fieldset>
                     <legend>Thông tin học sinh<b style="color: red;">*</b> </legend>
-                    <label for="studentName">Họ và tên học sinh <b style="color: red;">*</b></label>
-                    <input type="text" id="studentName" name="studentName" required>
+                    <label for="HoVaTeHS">Họ và tên học sinh <b style="color: red;">*</b></label>
+                    <input type="text" id="HoVaTeHS" name="HoVaTeHS" required>
 
-                    <label for="class">Lớp <b style="color: red;">*</b></label>
-                    <input type="text" id="class" name="class">
+                    <label for="LopMay">Lớp <b style="color: red;">*</b></label>
+                    <input type="text" id="LopMay" name="LopMay">
                 </fieldset>
 
                 <fieldset>
@@ -466,8 +466,8 @@ color: #2F398D ;
                     <input type="radio" name="time" value="afternoon"> Buổi chiều
                     <input type="radio" name="time" value="both"> Hai buổi<br><br>
 
-                    <strong><label for="pickupLocation">Điểm đón/trả học sinh <b style="color: red;">*</b></label></strong>
-                    <input type="text" id="pickupLocation" name="pickupLocation">
+                    <strong><label for="DiemDonTra">Điểm đón/trả học sinh <b style="color: red;">*</b></label></strong>
+                    <input type="text" id="DiemDonTra" name="DiemDonTra">
                 </fieldset>
 
 
